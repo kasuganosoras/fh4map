@@ -64,11 +64,29 @@
 				<div class="mapborder"></div>
 			</center>
 		</div>
-		<!-- Remove this if you don't like it-->
+		<!--Remove this if you don't like it-->
 		<div class="btn-group">
 			<div class="btn btn1"><span>F2</span> 飞行模式</div>
 			<div class="btn btn2">刷车菜单 <span>F5</span></div>
 		</div>
 		<!--End Remove-->
 	</body>
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<script>
+		$(function() {
+			window.addEventListener("message", function(event) {
+				var data = event.data;
+				switch(data.action) {
+					case "displayUI":
+						$(".outline").fadeIn();
+						$(".btn-group").fadeIn();
+						break;
+					case "hideUI":
+						$(".outline").fadeOut();
+						$(".btn-group").fadeOut();
+						break;
+				}
+			});
+		});
+	</script>
 </html>
