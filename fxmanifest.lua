@@ -4,7 +4,7 @@ games { 'gta5' }
 description "Forza Horizon 4 Minimap"
 author "Akkariin"
 url "https://www.zerodream.net/"
-version "1.1"
+version "1.2"
 
 client_script 'client.lua'
 server_script 'server.lua'
