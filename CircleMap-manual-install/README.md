@@ -8,4 +8,5 @@ __Don't forget to backup your files!__
 3. Go to folder `ui\` (Create it if not exists), put the `frontend.xml` inside it.
 4. Go to `platform\textures\`, usually it is in the same RPF file as `common`.
 5. Open the `graphics.ytd` and replace the `radarmasksm` with this repo `radarmasksm.png`
-6. Save all files and start FiveM, enjoy!
+6. Use [ArchiveFix](https://cdn.worldofcraft.cn/files/ArchiveFix.zip) to fix the RPF file (drag it on the ArchiveFix.exe)
+7. Save all files and start FiveM, enjoy!
