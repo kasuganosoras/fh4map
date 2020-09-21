@@ -1,0 +1,18 @@
+.outline {
+    position: fixed;
+    bottom: 8vh;
+    left: 5.8vh;
+    overflow: hidden;
+    width: 29.629vh;
+    text-align: center;
+}
+.mapborder {
+    width: 26.851vh;
+    height: 26.851vh;
+    border: 2px solid rgba(255,255,255,0.2);
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    top: 50px;
+    display: inline-block;
+}
