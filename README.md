@@ -13,8 +13,7 @@ https://www.youtube.com/watch?v=bDUz8IWIe30
 5. Restart your server
 
 ## Known issues
-- Icons is out of circle. 
-*Should have fixed above issue
+- Icons out of circle is fixed in this version
 
 ## License
 fh4map - Minimap mod for FiveM
