@@ -31,7 +31,6 @@ Citizen.CreateThread(function()
     end
 end)
 
-
 local isPause = false
 local uiHidden = false
 
