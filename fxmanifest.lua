@@ -1,7 +1,7 @@
 
 fx_version  'bodacious'
 games       {'gta5'}
-version     '1.2'
+version     '1.5'
 author      'Akkariin'
 description 'Forza Horizon 4 Minimap'
 url         'https://www.zerodream.net/'
