@@ -15,8 +15,8 @@ server_script 'server.lua'
 
 files {
 	'hud.html',
-	'min.js',
-	'min.css',
+	'main.js',
+	'style.css',
 }
 
 dependency 'es_extended'
