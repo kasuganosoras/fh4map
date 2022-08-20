@@ -16,6 +16,7 @@ Citizen.CreateThread(function()
 	SetMinimapComponentPosition('minimap', 'L', 'B', posX, posY, width, height)
 	SetMinimapComponentPosition('minimap_mask', 'L', 'B', posX, posY, width, height)
 	SetMinimapComponentPosition('minimap_blur', 'L', 'B', 0.012, 0.022, 0.256, 0.337)
+	SetBlipAlpha(GetNorthRadarBlip(), 0)
 
     local minimap = RequestScaleformMovie("minimap")
     SetRadarBigmapEnabled(true, false)
