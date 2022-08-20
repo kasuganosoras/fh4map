@@ -1,0 +1,51 @@
+.outline {
+    position: fixed;
+    bottom: 7.5vh;
+    left: 5.8vh;
+    overflow: hidden;
+    width: 29.629vh;
+    text-align: center;
+}
+.mapborder {
+    width: 26.851vh;
+    height: 26.851vh;
+    border: 2px solid rgba(255,255,255,0.2);
+    border-radius: 50%;
+    /*box-shadow: 0px 0px 16px rgba(0,0,0,0.5);*/
+    position: relative;
+    top: 50px;
+    display: inline-block;
+}
+.btn-group {
+    position: fixed;
+    bottom: 4.629vh;
+    left: 5.8vh;
+    width: 29.629vh;
+    text-align: center;
+}
+.btn {
+    height: 3.2vh;
+    background: rgba(255,255,255,0.2);
+    border: 2px solid rgba(255,255,255,0.2);
+    padding-left: 8px;
+    padding-right: 8px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,'微软雅黑',sans-serif ! important;
+    line-height: 3.2vh;
+    border-radius: 8px;
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 1.3vh;
+}
+.btn1 span {
+    margin-right: 5px;
+}
+.btn2 span {
+    margin-left: 5px;
+}
+.btn span {
+    border: 1px solid rgba(255,255,255,0.6);
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,'微软雅黑',sans-serif ! important;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 4px;
+}
