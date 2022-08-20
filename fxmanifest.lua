@@ -1,22 +1,17 @@
 
-fx_version 'bodacious'
-
-game 'gta5'
-
+fx_version  'bodacious'
+games       {'gta5'}
+version     '1.2'
+author      'Akkariin'
 description 'Forza Horizon 4 Minimap'
-author 'Akkariin'
-url 'https://www.zerodream.net/'
-version '1.2'
+url         'https://www.zerodream.net/'
+ui_page     'html/hud.html'
 
-ui_page 'hud.html'
-
-client_script 'client.lua'
-server_script 'server.lua'
+client_scripts {'client.lua'}
+server_scripts {'server.lua'}
 
 files {
-	'hud.html',
-	'main.js',
-	'style.css',
+	'html/hud.html',
+	'html/js/main.js',
+	'html/css/style.css',
 }
-
-dependency 'es_extended'

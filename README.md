@@ -12,13 +12,10 @@ https://www.youtube.com/watch?v=bDUz8IWIe30
 4. Add `start fh4map` to your server.cfg
 5. Restart your server
 
-## Known issues
-- Icons out of circle is fixed in this version
-
 ## License
 fh4map - Minimap mod for FiveM
 
-Copyright (C) 2020 Akkariin
+Copyright (C) 2020-2022 Akkariin
 
 This program Is free software: you can redistribute it And/Or modify it under the terms Of the GNU General Public License As published by the Free Software Foundation, either version 3 Of the License, Or (at your option) any later version.
 
